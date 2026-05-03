@@ -38,10 +38,10 @@ FAQS = [
 
     {
         "category": "Our Products",
-        "keywords": [
-            "products", "items", "catalog", "inventory", "what do you sell",
-            "product list", "available products", "store items", "shop items",
-            "categories", "product types", "merchandise"
+    "keywords": [
+        "products", "items", "sell", "what do you sell",
+        "catalog", "inventory", "product list", "store items",
+        "available products", "shop items", "categories"
         ],
         "fallback": "It sounds like you're asking about our products. Try asking: 'What products do you sell?'",
         "answer": "We offer a variety of quality products across multiple categories. Browse our store to see the full selection."
