@@ -99,8 +99,12 @@ document.getElementById("send").onclick = function () {
 
     const chatbox = document.getElementById("chatbox");
 
-    // Add user message bubble
-    chatbox.innerHTML += `<div class="user-msg">${message}</div>`;
+    // Customer message
+    chatbox.innerHTML += `
+        <div class="user-msg">
+            <strong>Customer:</strong> ${message}
+        </div>
+    `;
 
     fetch("/chat", {
         method: "POST",
@@ -109,13 +113,18 @@ document.getElementById("send").onclick = function () {
     })
     .then(res => res.json())
     .then(data => {
-        // Add bot message bubble
-        chatbox.innerHTML += `<div class="bot-msg">${data.response}</div>`;
+        // Lisa message
+        chatbox.innerHTML += `
+            <div class="bot-msg">
+                <strong>Lisa:</strong> ${data.response}
+            </div>
+        `;
         chatbox.scrollTop = chatbox.scrollHeight;
     });
 
     document.getElementById("input").value = "";
 };
+
 </script>
 
 </body>

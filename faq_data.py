@@ -45,5 +45,28 @@ FAQS = [
         ],
         "fallback": "It sounds like you're asking about our products. Try asking: 'What products do you sell?'",
         "answer": "We offer a variety of quality products across multiple categories. Browse our store to see the full selection."
-    }
+    },
+    {
+    "category": "Closing Conversation",
+    "keywords": [
+        "bye", "goodbye", "thanks", "thank you", "see you",
+        "talk later", "that’s all", "done", "finish", "stop",
+        "end chat", "end conversation"
+    ],
+    "fallback": "It sounds like you're wrapping up. You can say things like: 'Thanks, bye!'",
+    "answer": "Thank you for chatting with Wenzemart Store®! If you need anything else, I’m here to help."
+},
+    {
+    "category": "Introduction Conversation",
+    "keywords": [
+        "hello", "hi", "hey", "greetings", "good morning",
+        "good afternoon", "good evening", "start", "begin",
+        "help", "assist", "question"
+    ],
+    "fallback": "It sounds like you're starting a conversation. You can say things like: 'Hi, I need help.'",
+    "answer": "Hello! My name is Lisa, Welcome to Wenzemart Store®. How can I assist you today?"
+}
+
+
 ]
+
