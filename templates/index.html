@@ -13,7 +13,71 @@
    -->
     <title>FAQ Chatbot</title>
     <style>
-	
+	/* Default desktop layout (already good) */
+#chatbox {
+    width: 50%;
+}
+
+#input {
+    width: 43%;
+}
+
+/* ============================= */
+/* 📱 Mobile & Small Screens     */
+/* ============================= */
+@media (max-width: 768px) {
+    #chatbox {
+        width: 90%;
+        height: 350px;
+        border-width: 12px;
+    }
+
+    #input {
+        width: 85%;
+        border-width: 3px;
+    }
+
+    #send {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* ============================= */
+/* 📱 Extra Small Phones (iPhone SE, older Android) */
+/* ============================= */
+@media (max-width: 480px) {
+    #chatbox {
+        width: 95%;
+        height: 300px;
+        border-width: 10px;
+    }
+
+    #input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    #send {
+        width: 95%;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .user-msg, .bot-msg {
+        max-width: 90%;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
         body { font-family: Arial; padding: 20px; }
 
         /* Chatbox container */
@@ -75,7 +139,7 @@
 
 <h2 style="text-align: center;">
   FAQ Customer Support Chatbot<br>
-  Wenzemart Store &#174;
+  Wenzemart Store&#174;
 
 </h2>
 
