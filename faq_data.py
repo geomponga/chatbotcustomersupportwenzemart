@@ -64,7 +64,7 @@ FAQS = [
         "help", "assist", "question"
     ],
     "fallback": "It sounds like you're starting a conversation. You can say things like: 'Hi, I need help.'",
-    "answer": "Hello! I'm Lisa your chatbot, Welcome to Wenzemart Store®. How can I assist you today?"
+    "answer": "Hello! I'm Lisa the bot agent, welcome to Wenzemart Store®. How can I assist you today?"
 }
 
 
